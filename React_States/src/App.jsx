@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Profile from './components/Profile';
+import Shoppinglist from './components/Shoppinglist';
+
 
 const App = () => {
   
@@ -71,8 +72,10 @@ const App = () => {
       <h2>Random Number: {random}</h2>
       <button onClick={() => generateRandom()}>Generate Random Number</button>
 
-      {/******************************************************* */}
-
+      {/******************************************************* */} 
+      <p>*******************************************************</p>
+      
+      <Shoppinglist />
     </div>
   )
 }
