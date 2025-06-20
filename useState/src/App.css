@@ -1,0 +1,15 @@
+button{
+    margin: 5px;
+}
+
+#inc{
+    background-color: rgb(92, 152, 3);
+}
+
+#dec{
+    background-color: rgb(177, 13, 13);
+}
+
+#reset{
+    background-color: rgb(238, 248, 47);
+}
