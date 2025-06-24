@@ -1,8 +1,12 @@
 import React from 'react'
+import Food from './Food'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+
+      <Food />
+    </div>
   )
 }
 
