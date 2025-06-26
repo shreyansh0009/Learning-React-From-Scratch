@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Window from "./Window";
 
 // useEffect: It's a react hook, it tells DOM to perform some operations or do some code when:
 //               i. When component re-randers.
@@ -19,9 +20,9 @@ function App() {
 
   // here only count changes in the title, cause only count written as dependencies. If we include color, then color will change as well. we can do this with core js, but it makes code more clean and easy to get dependencies
   
-  useEffect(() => {
-    document.title = `Count: ${count} ${color}`;
-  }, [count, color]) 
+  // useEffect(() => {
+  //   document.title = `Count: ${count} ${color}`;
+  // }, [count, color]) 
 
   
 
@@ -43,6 +44,10 @@ function App() {
       <button onClick={addCount}>Add</button>
       <button onClick={subCount}>Sub</button>
       <button onClick={changeColor}>Change color</button>
+      <br />
+      <br />
+
+      <Window />
     </div>
   );
 }
