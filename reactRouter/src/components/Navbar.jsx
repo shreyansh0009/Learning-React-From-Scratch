@@ -5,6 +5,7 @@ function Navbar() {
   return (
     <div style={{ 
       display: 'flex', 
+      justifyContent: "space-between",
       gap: '1rem',
       padding: '1rem',
       background: '#eee',
